@@ -16,7 +16,7 @@ void main()
         number = number / 10;
     }
     if (sum == temp)
-        printf ("The given no is armstrong no");
+        printf ("yes");
     else
-        printf ("The given no is not a armstrong no");
+        printf ("no");
 }
