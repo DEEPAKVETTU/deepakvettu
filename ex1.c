@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-int i;
+int h;
 printf("enter the number:");
-scanf("%d",i);
-if(i<0)
+scanf("%d",h);
+if(h<0)
 printf("the number is negative");
-elseif(i>0)
+elseif(h>0)
 printf("the number is positive");
 else
 printf("zero");
