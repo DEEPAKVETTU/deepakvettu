@@ -4,14 +4,14 @@
 void main()
 {
     char a[200];
-    int count = 0, i;
+    int c = 0, i;
  
     printf("enter the string\n");
     scanf("%[^\n]a", a);
     for (i = 0;a[i] != '\0';i++)
     {
         if (a[i] == ' ')
-            count++;    
+            c++;    
     }
-    printf("number of words in given string are: %d\n", count + 1);
+    printf("number of words in given string are: %d\n", c + 1);
 }
