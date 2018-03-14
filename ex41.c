@@ -2,13 +2,13 @@
 
 int main()
 {
-	char s[50];
-	scanf("%s",s);
+	char d[50];
+	scanf("%s",d);
 	int n,i;
 	scanf("\n%d",&n);
 	for(i=1;i<=n;i++)
 	{
-		printf("\n%s",s);
+		printf("\n%s",d);
 	}
 	return 0;
 }
