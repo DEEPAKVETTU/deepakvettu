@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-  int a,b,c;
+  int d,p,c;
   printf("enter the numbers:");
-  scanf("%d %d",&a,&b);
-  c=a-b;
+  scanf("%d %d",&d,&p);
+  c=d-p;
   if(c%2==0)
   {
     printf("even");
