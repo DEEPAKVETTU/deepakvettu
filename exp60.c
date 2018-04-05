@@ -3,12 +3,12 @@
 int main()
 {
     char a[56],b[45];
-    int i,flag=0;
+    int d,flag=0;
     printf("enter the two string:");
     scanf("%s%s",a,b);
-    for(i=0;a[i]!='\0';i++)
+    for(d=0;a[d]!='\0';d++)
     {
-        if(a[i]==b[i])
+        if(a[d]==b[d])
         {
             flag=1;
         }
