@@ -1,4 +1,4 @@
-a=input("enter the test") 
+a=input("enter the text") 
 b=" answer"
 c=a+b
 print (c)
