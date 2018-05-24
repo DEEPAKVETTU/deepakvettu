@@ -1,13 +1,10 @@
 k=input("Enter the strig:")
 a=len(k)
-n=0
+p=0
 for i in k:
   if(i=='a' or i=='b'): 
-    g=1
-  else:
-    g=0
-
-if g==1:
+    p=p+1
+if p==a:
  print("yes")
 else:
   print("no")
