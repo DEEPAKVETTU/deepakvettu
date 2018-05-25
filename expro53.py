@@ -8,4 +8,4 @@ for i in a:
 if n==26:
   print("yes")
 else:
- print("no")
+  print("no")
