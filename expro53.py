@@ -5,7 +5,7 @@ a=a.lower()
 for i in a:
   if i in k:
     n=n+1
-if n==26:
+if n>=26:
   print("yes")
 else:
   print("no")
